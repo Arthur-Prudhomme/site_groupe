@@ -94,3 +94,44 @@ section {
     display: none;
 }
 
+@media  screen and (max-width: 1100px) {
+    .pres {
+        width: 300px;
+    }
+
+    .angel {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        flex-direction: column;
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .info {
+        width: auto;
+    }
+
+    .angel {
+        margin-bottom: 2rem;
+    }
+
+    .pres {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .info {
+        align-items: baseline;
+    }
+    
+    .nav {
+        flex-direction: column;
+        gap: 0;
+        padding-left: 1rem;
+    }
+}

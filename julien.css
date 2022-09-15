@@ -74,7 +74,8 @@ main {
 .tofs{
     width: 100%;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    overflow-y: hidden;
 }
 
 .bigTabs{

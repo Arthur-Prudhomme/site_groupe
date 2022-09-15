@@ -29,3 +29,47 @@ nav a {
     border-radius: 5px;
     background-color: #D2770F;
 }
+
+section {
+    height: 70vh;
+    margin: 2rem 10%;
+    background-color: rgb(229, 152, 75);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.angel {
+    height: 45vh;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.nav h4 {
+    font-weight: 500;
+    color: #d22d1e;
+}
+
+.nav .active {
+    color: #99160B;
+    font-weight: 600;
+}
+
+.pres {
+    height: 50vh;
+    width: 400px;
+    background-color: #f47037;
+}

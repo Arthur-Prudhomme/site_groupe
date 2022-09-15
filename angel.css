@@ -61,6 +61,7 @@ section {
 .nav h4 {
     font-weight: 500;
     color: #d22d1e;
+    cursor: pointer;
 }
 
 .nav .active {
@@ -72,4 +73,24 @@ section {
     height: 50vh;
     width: 400px;
     background-color: #f47037;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: #390804;
 }
+
+.info_pres h3 {
+    padding-bottom: 1rem;
+}
+
+.info_pres span {
+    font-weight: 600;
+}
+
+.projet img {
+    height: 18vh;
+}
+
+.none {
+    display: none;
+}
+

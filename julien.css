@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titre{
+    animation: scrollText 10s infinite linear;
+}
+.titre .otre{
+    
+}
+.titre h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+}
+@keyframes scrollText {
+    from   { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}

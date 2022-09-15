@@ -83,8 +83,20 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 4% 5% 7% 5%;
+    padding: 4%;
+    background-color: #ffffff94;
 }
 
 #tabcontent3 img{
     width: 15%;
+}
+
+.bigtabs  h3{
+    color: #430081;
+}
+.lescontents a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #430081;
+    font-size: 25px;
 }

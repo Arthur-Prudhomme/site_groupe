@@ -33,10 +33,10 @@ tournb.addEventListener("mouseover", mOver, false)
 tournb.addEventListener("mouseout", mOut, false) 
 
 function mOver() {
-   tournb.setAttribute("style", "transform: scale(5) rotate(1.0turn); transition: all .5s ease-in-out; ")
+   tournb.setAttribute("style", "transform: scale(5) rotate(1.0turn); transition: all .5s ease-in-out; z-index: 1; ")
 }
 function mOut() {  
-   tournb.setAttribute("style", "transform: scale(1.0) ; transition: all .2s ease-in-out; ")
+   tournb.setAttribute("style", "transform: scale(1.0) ; transition: all .2s ease-in-out; z-index: 1;")
 }
 }
 
@@ -46,9 +46,9 @@ tournc.addEventListener("mouseover", mOver, false)
 tournc.addEventListener("mouseout", mOut, false) 
 
 function mOver() {
-   tournc.setAttribute("style", "transform: scale(10) rotate(1.0turn); transition: all .5s ease-in-out; ")
+   tournc.setAttribute("style", "transform: scale(10) rotate(1.0turn); transition: all .5s ease-in-out; z-index: 1;")
 }
 function mOut() {  
-   tournc.setAttribute("style", "transform: scale(1.0) ; transition: all .2s ease-in-out; ")
+   tournc.setAttribute("style", "transform: scale(1.0) ; transition: all .2s ease-in-out; z-index: 0;")
 }
 }

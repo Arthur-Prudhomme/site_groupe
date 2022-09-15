@@ -91,7 +91,7 @@ main {
     width: 15%;
 }
 
-.bigtabs  h3{
+.lestabs h3{
     color: #430081;
 }
 .lescontents a{
@@ -99,4 +99,38 @@ main {
     font-weight: bold;
     color: #430081;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 1517px) {
+    .titre h2{
+        font-size: 0px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .lescontents .active {
+        flex-direction: column;
+    }
+    .tabcontent {
+        padding: 0;
+        margin: 10% 0 0 0 ;
+    }
+    .tabcontent p{
+        width: 100%;
+    }
+    .lestabs{
+        width: 100%;
+    }
+    .a{
+        font-size: 80px;
+    }
+    .b, .c{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .lestabs h3{
+        font-size: 25px;
+    }
 }

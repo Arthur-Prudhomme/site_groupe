@@ -3,17 +3,25 @@
     padding: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.titre{
+main {
+    background-color: #69a500;
+}
+.titre .b{
     animation: scrollText 10s infinite linear;
 }
-.titre .otre{
-    
+.titre .a{
+    animation: scrollText 12s infinite linear;
+}
+.titre .c{
+    animation: scrollText 8s infinite linear;
 }
 .titre h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
+    color: #430081;
 }
 @keyframes scrollText {
     from   { transform: translateX(100%); }
     to { transform: translateX(-100%); }
 }
+

@@ -1,7 +1,7 @@
 .top {
     display: grid;
     padding:0;
-    background-color: rgba(111, 111, 111, 0.249);
+    background-color: rgba(16, 16, 16, 0.633);
     justify-content: center;
     color: rgb(248, 248, 248);
 }
@@ -23,14 +23,14 @@
     margin: 1rem;
     padding: 0.4rem 0;
     text-align: center;
-    background-color: #ffffffb6;
-    color: rgb(0, 0, 0);
+    background-color: #165e76b6;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 16px;
 }
 
 .menu a:hover {
-    background-color: #40404085;
+    background-color: #00ddff85;
     color: #ffffff;
 }
 
@@ -44,18 +44,19 @@
     padding-right: 1%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #ffffff63;
+    background-color:rgba(16, 16, 16, 0.633);
+    color: #ffffff;
 }
 
 .pa{
     margin:1%;
     padding-left: 1%;
     padding-right: 1%;
-    background-color: #cacaca79;
+    padding-bottom: 1%;
+    background-color: #165e76b6;
     
     text-align: left;
 }
-
 .combo{
     display:flex;
 }
@@ -66,7 +67,8 @@
 }
 
 body{
-    background-image: url(background.jpg);
+    background-image: url(background.gif);
+    backdrop-filter:blur(5px);
     text-align: center;
     background-repeat : no-repeat;
     background-size : cover;

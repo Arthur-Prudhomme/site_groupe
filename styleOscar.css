@@ -67,7 +67,7 @@
 }
 
 body{
-    background-image: url(background.gif);
+    background-image: url("./imgs oscar/background.gif");
     backdrop-filter:blur(5px);
     text-align: center;
     background-repeat : no-repeat;
